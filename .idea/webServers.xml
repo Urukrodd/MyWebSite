@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1f65628e-385e-47c6-b5af-68fe07d3b752" name="Prod" url="http://ftp.maxime-bernard.yo.fr">
+        <fileTransfer rootFolder="/public_html" accessType="FTPS" host="ftp.maxime-bernard.yo.fr" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

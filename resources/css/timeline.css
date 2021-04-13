@@ -1,0 +1,65 @@
+.leef1 {
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    animation: cloud 5s infinite;
+    width: 30rem;
+    top: 3rem;
+    margin-right: 10rem;
+}
+
+.leef2 {
+    background-image: linear-gradient(to right, #ec8c69 0%, #ed6ea0 100%);
+    animation: cloud 7s infinite;
+    width: 30rem;
+    top: 9.75rem;
+    margin-left: 10rem;
+}
+
+.leef3 {
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    animation: cloud 4s infinite;
+    width: 30rem;
+    bottom: 3rem;
+    margin-right: 10rem;
+}
+
+@media (max-width: 700px) {
+    .leef1 {
+        margin-right: 0;
+    }
+
+    .leef2 {
+        margin-left: 0;
+    }
+
+    .leef3 {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 530px) {
+    .leef1, .leef2, .leef3 {
+
+        width: 20rem;
+        @apply text-sm
+    }
+
+    .leef2 {
+        top: 10.25rem;
+    }
+
+    .timeline span {
+        @apply text-sm
+    }
+}
+
+@keyframes cloud {
+    0% {
+        transform: translateY(0.2rem);
+    }
+    50% {
+        transform: translateY(-0.2rem);
+    }
+    100% {
+        transform: translateY(0.2rem);
+    }
+}

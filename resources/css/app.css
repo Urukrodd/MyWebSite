@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@700&family=Nunito:wght@300;400&display=swap');
+@import "timeline.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+h2, h3 {
+    font-family: "Markazi Text", serif;
+}
+
+.pdfImage:hover {
+    transform: rotate(-2deg) scale(1.05);
+}
