@@ -6321,8 +6321,6 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ "./node_modules/@fortawesome/fontawesome-free/js/all.js");
 
-__webpack_require__(/*! ./scrollreveal */ "./resources/js/scrollreveal.js");
-
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -6353,37 +6351,6 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
-
-/***/ }),
-
-/***/ "./resources/js/scrollreveal.js":
-/*!**************************************!*\
-  !*** ./resources/js/scrollreveal.js ***!
-  \**************************************/
-/***/ (() => {
-
-ScrollReveal({
-  distance: '50px'
-});
-ScrollReveal().reveal('.p-title', {
-  delay: 200,
-  duration: 1000,
-  origin: 'top'
-});
-ScrollReveal().reveal('.p-text', {
-  delay: 400,
-  duration: 1000,
-  origin: 'bottom'
-});
-ScrollReveal().reveal('.p-photo', {
-  delay: 600,
-  duration: 1000,
-  origin: 'right'
-});
-ScrollReveal().reveal('.c-case', {
-  duration: 200,
-  interval: 100
-});
 
 /***/ }),
 
