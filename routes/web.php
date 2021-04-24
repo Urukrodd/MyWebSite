@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Competence;
+use App\Models\Projet;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,7 +21,14 @@ Route::get('/', function () {
 });
 
 Route::get('/projets', function () {
-    return view('projet');
+    $pros = Projet::all()
+                ->where('categorie', '=', 'pro');
+    $persos = Projet::all()
+        ->where('categorie', '=', 'perso');
+    $ecoles = Projet::all()
+        ->where('categorie', '=', 'ecole');
+
+    return view('projet', ['pros' => $pros, 'persos' => $persos, 'ecoles' => $ecoles]);
 });
 
 

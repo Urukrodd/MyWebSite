@@ -23,7 +23,7 @@
                     <i class="fab {{ $comp->icon }}"></i>
                 </span>
                 <p>
-                    {{ $comp->texte }}
+                    {!! $comp->texte !!}
                 </p>
             </div>
         @endforeach
