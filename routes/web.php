@@ -22,3 +22,8 @@ Route::get('/', function () {
 Route::get('/projets', function () {
     return view('projet');
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
