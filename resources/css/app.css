@@ -12,6 +12,46 @@ h2, h3 {
     font-family: "Markazi Text", serif;
 }
 
+.h-line {
+    height: 400px;
+}
+
 .pdfImage:hover {
     transform: rotate(-2deg) scale(1.05);
 }
+
+.c-case {
+    transition: box-shadow 500ms;
+}
+
+.c-case:nth-child(even) svg * {
+    fill: url(#rg);
+}
+
+.c-case:nth-child(odd) svg * {
+    fill: url(#rb);
+}
+
+.c-case:hover {
+    /*transform: scale(0.98)!important;*/
+    @apply shadow-lg
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

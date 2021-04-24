@@ -6,9 +6,6 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        height: {
-          'line': '400px'
-        },
         extend: {},
     },
     variants: {

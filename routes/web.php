@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Competence;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home.home');
+    $comps = Competence::all();
+    return view('home.home', ['comps' => $comps]);
+});
+
+Route::get('/projets', function () {
+    return view('projet');
 });
