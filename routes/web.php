@@ -28,7 +28,12 @@ Route::get('/projets', function () {
     $ecoles = Projet::all()
         ->where('categorie', '=', 'ecole');
 
-    return view('projet', ['pros' => $pros, 'persos' => $persos, 'ecoles' => $ecoles]);
+    return view('projets', ['pros' => $pros, 'persos' => $persos, 'ecoles' => $ecoles]);
+});
+
+Route::get('/projets/{id}', function ($id) {
+    $projet = Projet::find($id);
+    return view('projet', ['projet' => $projet]);
 });
 
 
