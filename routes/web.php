@@ -28,14 +28,13 @@ Route::get('/projets', function () {
     $ecoles = Projet::all()
         ->where('categorie', '=', 'ecole');
 
-    return view('projets', ['pros' => $pros, 'persos' => $persos, 'ecoles' => $ecoles]);
+    return view('projet.projets', ['pros' => $pros, 'persos' => $persos, 'ecoles' => $ecoles]);
 });
 
 Route::get('/projets/{id}', function ($id) {
     $projet = Projet::find($id);
-    return view('projet', ['projet' => $projet]);
+    return view('projet.projet', ['projet' => $projet]);
 });
-
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

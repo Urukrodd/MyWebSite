@@ -85,6 +85,39 @@
   }
 }
 
+.c-case {
+  transition: box-shadow 500ms;
+}
+
+.c-case:nth-child(even) svg * {
+  fill: url(#rg);
+}
+
+.c-case:nth-child(odd) svg * {
+  fill: url(#rb);
+}
+
+.c-case:hover {
+  /*transform: scale(0.98)!important;*/
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.projets img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.projet img {
+  text-align: center;
+  margin: 2rem;
+  display: inline;
+}
+
+.projet p {
+  margin-bottom: 1rem;
+}
+
 /*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -31932,24 +31965,6 @@ h2, h3 {
 
 .pdfImage:hover {
   transform: rotate(-2deg) scale(1.05);
-}
-
-.c-case {
-  transition: box-shadow 500ms;
-}
-
-.c-case:nth-child(even) svg * {
-  fill: url(#rg);
-}
-
-.c-case:nth-child(odd) svg * {
-  fill: url(#rb);
-}
-
-.c-case:hover {
-  /*transform: scale(0.98)!important;*/
-  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
 @media (min-width: 640px){
@@ -187506,6 +187521,8 @@ h2, h3 {
     --tw-backdrop-sepia: sepia(100%);
   }
 }
+
+
 
 
 

@@ -1,0 +1,16 @@
+.c-case {
+    transition: box-shadow 500ms;
+}
+
+.c-case:nth-child(even) svg * {
+    fill: url(#rg);
+}
+
+.c-case:nth-child(odd) svg * {
+    fill: url(#rb);
+}
+
+.c-case:hover {
+    /*transform: scale(0.98)!important;*/
+    @apply shadow-lg
+}

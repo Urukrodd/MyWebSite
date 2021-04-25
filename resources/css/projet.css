@@ -1,0 +1,14 @@
+.projets img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.projet img {
+    text-align: center;
+    margin: 2rem;
+    display: inline;
+}
+
+.projet p {
+    margin-bottom: 1rem;
+}

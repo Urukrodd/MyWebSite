@@ -13,7 +13,7 @@
 {{-- End Header --}}
 
 {{-- Contenu de la page --}}
-<div class="sm:mt-8 p-10 flex flex-col w-full h-full items-center content-center text-gray-500 smooth-scroll-wrapper">
+<div class="sm:mt-8 sm:p-10 p-3 flex flex-col w-full h-full items-center content-center text-gray-500 smooth-scroll-wrapper">
     @yield("content")
 </div>
 
