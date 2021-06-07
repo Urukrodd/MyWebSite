@@ -1,5 +1,5 @@
 <div class="md:mt-52 mt-20 max-w-7xl flex flex-col justify-center items-center flex-wrap">
-    <h2 class="text-6xl">Mes compétences</h2>
+    <h2 class="md:text-6xl text-5xl">Mes compétences</h2>
     <div class="mt-14 flex flex-row flex-wrap items-center justify-center">
 
         <svg width="0" height="0">
@@ -22,9 +22,7 @@
                 <span class="text-7xl m-5">
                     <i class="fab {{ $comp->icon }}"></i>
                 </span>
-                <p>
-                    {!! $comp->texte !!}
-                </p>
+                {!! $comp->texte !!}
             </div>
         @endforeach
 

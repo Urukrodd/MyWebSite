@@ -1,8 +1,8 @@
 <div class="flex flex-row justify-center items-center flex-wrap">
     <div class="mr-10">
-        <h2 class="p-title text-7xl">Maxime Bernard</h2>
-        <p class=" p-text max-w-xl">
-            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
+        <h2 class="md:text-6xl text-5xl">Maxime Bernard</h2>
+        <p class="max-w-xl">
+            Bienvenue sur mon site personnel ! Développeur WEB sortant tout juste des études, j'utilise surtout le langage PHP avec Symfony pour mes projets, mais apprendre de nouveaux langages ne me fait pas peur ! Sur ce site, vous trouverez mon CV ainsi que quelques-uns de mes projets. Je compte faire évoluer ce portfolio avec quelques fonctionnalités sympathiques, mais chaque chose en son temps <i class="far fa-smile-wink"></i>.
         </p>
     </div>
     <img src="img/maxime_photo.jpg" alt="" class="p-photo w-60 mt-6 rounded-full">
