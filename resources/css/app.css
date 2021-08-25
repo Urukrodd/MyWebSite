@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke;
 }
 h2, h3 {
     font-family: "Markazi Text", serif;
@@ -20,6 +21,10 @@ h2, h3 {
 
 .pdfImage:hover {
     transform: rotate(-2deg) scale(1.05);
+}
+
+.animatedIcon:hover {
+    transform: rotate(3deg) scale(1.10);
 }
 
 

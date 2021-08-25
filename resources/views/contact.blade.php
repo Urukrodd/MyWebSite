@@ -1,17 +1,17 @@
 @extends('base')
 
 @section('content')
-    <div class="projets sm:max-w-7xl w-full flex flex-col justify-center items-center flex-wrap">
+    <div class="sm:max-w-7xl w-full flex flex-col justify-center items-center flex-wrap">
 
-        <h2 class="text-7xl">Me contacter</h2>
-        <div class="mt-6 p-6 sm:w-2/3 w-11/12 rounded-2xl flex flex-row flex-col justify-center items-center shadow divide-y-2">
-            <div class="w-full flex flex-wrap justify-around items-center">
-                <a href="https://www.linkedin.com/in/maxime-bernard-pro/"><i class="fab fa-linkedin text-7xl m-4"></i></a>
-                <a href="https://twitter.com/maxime_bern"><i class="fab fa-twitter text-7xl m-4"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100007572497616"><i class="fab fa-facebook text-7xl m-4"></i></a>
+        <h2 class="text-7xl mb-8">Me contacter</h2>
+        <div class="bg-white p-6 sm:w-2/3 w-11/12 rounded-2xl flex flex-row flex-col justify-center items-center shadow divide-y-2">
+            <div class="mb-8 w-full flex flex-wrap justify-around items-center">
+                <a href="https://www.linkedin.com/in/maxime-bernard-pro/"><i class="fab fa-linkedin animatedIcon text-7xl m-4 text-blue-500 duration-200"></i></a>
+                <a href="https://twitter.com/maxime_bern"><i class="fab fa-twitter animatedIcon text-7xl m-4 text-blue-400 duration-200"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100007572497616"><i class="fab fa-facebook animatedIcon text-7xl m-4 text-blue-700  duration-200"></i></a>
             </div>
-            <div class="w-full mx-4 sm:mx-24 mx-20 flex flex-col justify-around items-center">
-                <form action="" class="formContact w-full m-4 flex flex-col items-center">
+            <div class="mx-4 sm:mx-24 mx-20 md:w-96 w-full flex flex-col justify-around items-center">
+                <form action="" class="formContact w-full m-4 mt-8 flex flex-col items-center">
                     <h2 class="text-4xl">Par email</h2>
                     <input type="email" name="mail" class="p-1 m-2 w-full bg-gray-100 rounded" placeholder="Email ...">
                     <input type="text" name="subject" class="p-1 m-2 w-full bg-gray-100 rounded" placeholder="Sujet ...">
